@@ -1,0 +1,67 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Header Styles */
+.header {
+    background-color: #004d00; /* Dark green */
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Navigation Button Styles */
+.nav-buttons {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-button {
+    color: #ffffff;
+    background-color: #00cc00; /* Bright green */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+    font-weight: bold;
+}
+
+.nav-button:hover {
+    background-color: #009900;
+    transform: scale(1.05);
+}
+
+/* Call-To-Action Button */
+.cta-button {
+    padding: 12px 20px;
+    background-color: #009900; /* Darker green for emphasis */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.cta-button:hover {
+    background-color: #007700;
+    transform: scale(1.05);
+}
